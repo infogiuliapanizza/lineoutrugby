@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it" data-lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="contact.title">Contatti — LINEOUT</title>
+  <meta name="description" content="Scrivi a LINEOUT: ti rispondiamo entro 48 ore. Capiremo insieme se la Spagna fa per te — e come arrivarci nel modo giusto.">
+  <link rel="icon" type="image/svg+xml" href="assets/crest.svg">
+  <link rel="preload" href="assets/fonts/anton-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/crest.svg" alt="LINEOUT" class="brand-crest">
+        <span class="brand-name">LINEOUT</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-wrap" data-i18n-label="nav.menu" aria-label="Apri il menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-wrap" id="nav-wrap">
+        <nav class="site-nav">
+          <a href="index.html#perche-noi" data-i18n="nav.about">Chi siamo</a>
+          <a href="come-funziona.html" data-i18n="nav.how">Come funziona</a>
+          <a href="fondatori.html" data-i18n="nav.founders">I Fondatori</a>
+          <a href="contatti.html" aria-current="page" data-i18n="nav.contact">Contatti</a>
+        </nav>
+        <div class="lang-toggle" role="group" aria-label="Lingua / Idioma">
+          <button class="lang-btn active" data-lang="it" aria-pressed="true">IT</button>
+          <button class="lang-btn" data-lang="es" aria-pressed="false">ES</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="contact-split">
+
+      <div class="contact-left">
+        <div class="reveal">
+          <p class="kicker kicker-amber" data-i18n="contact.kicker">Scrivici</p>
+          <h1 class="display" data-i18n="contact.h1">Parliamoci.</h1>
+          <p class="lead" data-i18n="contact.text">Mandaci un messaggio. Ti rispondiamo entro 48 ore. Capiremo insieme se la Spagna fa per te — e come arrivarci nel modo giusto.</p>
+          <a class="contact-email" href="mailto:info@lineoutrugby.it">info@lineoutrugby.it</a>
+          <div class="contact-infos">
+            <p class="contact-info">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6-5.2-6-10a6 6 0 1 1 12 0c0 4.8-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/></svg>
+              <span data-i18n="contact.info1">Italia → Spagna</span>
+            </p>
+            <p class="contact-info">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+              <span data-i18n="contact.info2">Risposta entro 48 ore</span>
+            </p>
+            <p class="contact-info">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="12" rx="9.5" ry="6" transform="rotate(-35 12 12)"/><path d="M9.5 9.5l5 5M10.8 13.2l1.2-1.2M12 12l1.2-1.2"/></svg>
+              <span data-i18n="contact.info3">Solo rugby, nessuna burocrazia in più</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <!-- Formspree: sostituire l'ID xpwzgkdv con quello reale dell'account -->
+        <form class="contact-form reveal" action="https://formspree.io/f/xpwzgkdv" method="POST">
+          <div class="field">
+            <label for="f-nome" data-i18n="contact.form.name">Nome *</label>
+            <input id="f-nome" name="nome" type="text" autocomplete="given-name" required>
+          </div>
+          <div class="field">
+            <label for="f-cognome" data-i18n="contact.form.surname">Cognome *</label>
+            <input id="f-cognome" name="cognome" type="text" autocomplete="family-name" required>
+          </div>
+          <div class="field">
+            <label for="f-email" data-i18n="contact.form.email">Email *</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="f-telefono" data-i18n="contact.form.phone">Telefono *</label>
+            <input id="f-telefono" name="telefono" type="tel" autocomplete="tel" required>
+          </div>
+          <div class="field">
+            <label for="f-messaggio" data-i18n="contact.form.message">Messaggio *</label>
+            <textarea id="f-messaggio" name="messaggio" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-granata" data-i18n="contact.form.submit">Invia</button>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <img src="assets/crest.svg" alt="" class="footer-crest">
+      <p class="footer-tagline">Live, Learn &amp; Play</p>
+      <nav class="footer-nav">
+        <a href="index.html#perche-noi" data-i18n="nav.about">Chi siamo</a>
+        <a href="come-funziona.html" data-i18n="nav.how">Come funziona</a>
+        <a href="fondatori.html" data-i18n="nav.founders">I Fondatori</a>
+        <a href="contatti.html" data-i18n="nav.contact">Contatti</a>
+      </nav>
+      <a class="footer-email" href="mailto:info@lineoutrugby.it">info@lineoutrugby.it</a>
+      <p class="footer-line" data-i18n="footer.line">Rugby · Italia → Spagna</p>
+      <p class="footer-copy" data-i18n="footer.copy">© 2026 LINEOUT · lineoutrugby.it</p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+</body>
+</html>
