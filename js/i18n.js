@@ -86,7 +86,6 @@ const translations = {
     'founders.sb.club': 'Valorugby Emilia (Serie A Elite)',
     'founders.sb.born': 'Parma, 19 luglio 2004 (21 anni)',
     'founders.sb.career': 'Cresciuto nelle giovanili di Viadana, ha esordito in Serie A Elite con la maglia giallonera. Entrato nell’Accademia federale delle Zebre, ha debuttato in United Rugby Championship contro l’Ulster. Nella stagione 2025/2026, con il Valorugby Emilia, ha vinto il doppio premio MVP della Serie A Elite e Miglior Under 23 del campionato (unico a vincere entrambi nella prima edizione degli Awards). Con l’Italia ha indossato la maglia dell’Under 18, Under 19, Under 20 (Sei Nazioni e Mondiali 2024), Seven e Italy XV nel 2026.',
-    'founders.sb.quote': '“Indosso questi colori da quando ero bambino. Giocare la finale con la squadra della tua città è un sogno che si avvera.”',
 
     'founders.nc.position': 'Mediano di mischia',
     'founders.nc.club': 'Valorugby Emilia (Serie A Elite)',
@@ -227,7 +226,6 @@ const translations = {
     'founders.sb.club': 'Valorugby Emilia (Serie A Elite)',
     'founders.sb.born': 'Parma, 19 de julio de 2004 (21 años)',
     'founders.sb.career': 'Formado en la cantera de Viadana, debutó en la Serie A Elite con la camiseta gialloniera. Tras entrar en la Academia federal de las Zebre, debutó en el United Rugby Championship contra el Ulster. En la temporada 2025/2026, con el Valorugby Emilia, ganó el doble premio MVP de la Serie A Elite y Mejor Sub-23 del campeonato (el único en ganar ambos en la primera edición de los Awards). Con Italia ha vestido la camiseta de la Sub-18, Sub-19, Sub-20 (Seis Naciones y Mundial 2024), Seven e Italy XV en 2026.',
-    'founders.sb.quote': '“Llevo estos colores desde niño. Jugar la final con el equipo de tu ciudad es un sueño hecho realidad.”',
 
     'founders.nc.position': 'Medio melé',
     'founders.nc.club': 'Valorugby Emilia (Serie A Elite)',
