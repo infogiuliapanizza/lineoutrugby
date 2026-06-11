@@ -146,7 +146,15 @@ const translations = {
     'nf.title': 'Pagina non trovata — LINEOUT',
     'nf.h1': 'Palla in <span class="amber">touche.</span>',
     'nf.text': 'Questa pagina non esiste. Torna in campo.',
-    'nf.btn': 'Torna alla home →'
+    'nf.btn': 'Torna alla home →',
+
+    // Grazie
+    'thanks.title': 'Messaggio ricevuto — LINEOUT',
+    'thanks.h1': 'Ricevuto. <span class="amber">Meta.</span>',
+    'thanks.text': 'Il tuo messaggio è arrivato. Ti rispondiamo entro 48 ore. Intanto, continua ad allenarti.',
+    'thanks.btn': 'Torna alla home →',
+    'contact.form.error': 'Qualcosa è andato storto. Riprova, oppure scrivici direttamente a info@lineoutrugby.it.',
+    'contact.form.sending': 'Invio…'
   },
 
   es: {
@@ -292,7 +300,15 @@ const translations = {
     'nf.title': 'Página no encontrada — LINEOUT',
     'nf.h1': 'Balón en <span class="amber">touch.</span>',
     'nf.text': 'Esta página no existe. Vuelve al campo.',
-    'nf.btn': 'Volver al inicio →'
+    'nf.btn': 'Volver al inicio →',
+
+    // Grazie
+    'thanks.title': 'Mensaje recibido — LINEOUT',
+    'thanks.h1': 'Recibido. <span class="amber">Ensayo.</span>',
+    'thanks.text': 'Tu mensaje ha llegado. Te respondemos en 48 horas. Mientras tanto, sigue entrenando.',
+    'thanks.btn': 'Volver al inicio →',
+    'contact.form.error': 'Algo ha salido mal. Inténtalo de nuevo o escríbenos directamente a info@lineoutrugby.it.',
+    'contact.form.sending': 'Enviando…'
   }
 };
 
@@ -344,6 +360,34 @@ const translations = {
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => applyLang(btn.dataset.lang));
   });
+
+  // Form contatti: invio AJAX a Formspree + redirect alla pagina di ringraziamento
+  const contactForm = document.querySelector('.contact-form');
+  if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = contactForm.querySelector('button[type="submit"]');
+      const errEl = document.getElementById('form-error');
+      const lang = document.documentElement.lang || 'it';
+      errEl.hidden = true;
+      btn.disabled = true;
+      const originalLabel = btn.textContent;
+      btn.textContent = translations[lang]['contact.form.sending'];
+      try {
+        const res = await fetch(contactForm.action, {
+          method: 'POST',
+          body: new FormData(contactForm),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        window.location.href = 'grazie.html';
+      } catch (err) {
+        btn.disabled = false;
+        btn.textContent = originalLabel;
+        errEl.hidden = false;
+      }
+    });
+  }
 
   // Nav mobile
   const toggle = document.getElementById('nav-toggle');
