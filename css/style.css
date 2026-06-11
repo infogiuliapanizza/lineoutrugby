@@ -1,0 +1,463 @@
+/* LINE OUT — Identità visiva v1.0
+   Granata, crema e una scintilla d'ambra. Niente gradienti, niente blu. */
+
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/anton-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('../assets/fonts/archivo-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Archivo';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('../assets/fonts/archivo-italic-latin.woff2') format('woff2');
+}
+
+:root {
+  --granata: #3F0909;
+  --granata-chiaro: #731C20;
+  --ambra: #E0A23F;
+  --crema: #F6E4BE;
+  --sabbia: #E7D6B3;
+  --carta: #F4ECDA;
+  --gesso: #FDFBF6;
+  --ambra-scura: #A96A14;
+  --inchiostro: #2B0808;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  color: var(--granata);
+  background: var(--carta);
+  line-height: 1.6;
+}
+
+.container {
+  width: min(1120px, 92%);
+  margin: 0 auto;
+}
+
+/* ---------- Tipografia ---------- */
+
+.display {
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  line-height: 1.02;
+  letter-spacing: 0.01em;
+  color: var(--crema);
+}
+
+.title {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-size: clamp(1.9rem, 4.5vw, 3rem);
+  line-height: 1.1;
+  color: var(--granata);
+}
+
+.title-crema { color: var(--crema); }
+
+.kicker {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 0.8rem;
+  color: var(--ambra-scura);
+  margin-bottom: 0.9rem;
+}
+
+.kicker-amber { color: var(--ambra); }
+
+.amber { color: var(--ambra); }
+
+.lead {
+  font-size: 1.15rem;
+  max-width: 38em;
+}
+
+.lead-crema { color: var(--crema); }
+
+/* ---------- Bottoni ---------- */
+
+.btn {
+  display: inline-block;
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1.05rem;
+  text-decoration: none;
+  padding: 0.85rem 1.9rem;
+  border: 3px solid transparent;
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.btn:hover { transform: translateY(-2px); }
+
+.btn-amber {
+  background: var(--ambra);
+  color: var(--granata);
+  border-color: var(--ambra);
+}
+
+.btn-amber:hover { background: var(--crema); border-color: var(--crema); }
+
+.btn-ghost {
+  background: transparent;
+  color: var(--crema);
+  border-color: var(--crema);
+}
+
+.btn-ghost:hover { background: var(--crema); color: var(--granata); }
+
+.btn-small { font-size: 0.85rem; padding: 0.5rem 1.1rem; }
+
+/* ---------- Header ---------- */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--granata);
+  border-bottom: 1px solid var(--granata-chiaro);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  text-decoration: none;
+}
+
+.brand-crest { height: 44px; width: auto; }
+
+.brand-name {
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  font-size: 1.4rem;
+  letter-spacing: 0.04em;
+  color: var(--crema);
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.site-nav a:not(.btn) {
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: var(--crema);
+}
+
+.site-nav a:not(.btn):hover { color: var(--ambra); }
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 26px;
+  height: 3px;
+  background: var(--crema);
+}
+
+/* ---------- Hero ---------- */
+
+.hero {
+  background: var(--granata);
+  padding: 5rem 0 5.5rem;
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero-tagline {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.45em;
+  font-size: 0.95rem;
+  color: var(--ambra);
+  margin: 1.4rem 0 1.2rem;
+}
+
+.hero .lead { color: var(--crema); margin-bottom: 2.2rem; }
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.hero-crest { text-align: center; }
+
+.hero-crest img {
+  width: min(340px, 80%);
+  height: auto;
+}
+
+/* ---------- Sezioni ---------- */
+
+.section { padding: 5.5rem 0; }
+
+.section-carta { background: var(--carta); }
+.section-sabbia { background: var(--sabbia); }
+.section-granata { background: var(--granata); }
+
+.section-head { margin-bottom: 3rem; }
+.section-head .lead { margin-top: 1rem; }
+
+.grid { display: grid; gap: 1.5rem; }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+.grid-4 { grid-template-columns: repeat(4, 1fr); }
+
+/* ---------- Card servizi ---------- */
+
+.card {
+  background: var(--gesso);
+  border: 2px solid var(--sabbia);
+  padding: 1.8rem 1.5rem;
+}
+
+.card-num {
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  font-size: 1.6rem;
+  color: var(--ambra);
+}
+
+.card h3 {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.35rem;
+  margin: 0.5rem 0 0.7rem;
+}
+
+.card p { font-size: 0.98rem; }
+
+/* ---------- Founders ---------- */
+
+.founders { margin-bottom: 2.5rem; }
+
+.founder {
+  border: 2px solid var(--granata-chiaro);
+  padding: 1.6rem 1.4rem;
+  text-align: center;
+}
+
+.founder-name {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: var(--crema);
+}
+
+.founder-role {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.78rem;
+  color: var(--ambra);
+  margin-top: 0.4rem;
+}
+
+.strapline {
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: clamp(1.2rem, 2.6vw, 1.7rem);
+  color: var(--crema);
+  text-align: center;
+}
+
+/* ---------- Steps ---------- */
+
+.step {
+  background: var(--gesso);
+  border-top: 6px solid var(--ambra);
+  padding: 1.8rem 1.5rem;
+}
+
+.step-num {
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  font-size: 3.2rem;
+  line-height: 1;
+  color: var(--ambra);
+}
+
+.step h3 {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.35rem;
+  margin: 0.6rem 0 0.7rem;
+}
+
+/* ---------- Storie ---------- */
+
+.quote {
+  background: var(--gesso);
+  border-left: 6px solid var(--granata);
+  padding: 1.8rem 1.5rem;
+}
+
+.quote blockquote {
+  font-size: 1.05rem;
+  font-style: italic;
+  margin-bottom: 1.2rem;
+}
+
+.quote figcaption {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  color: var(--ambra-scura);
+}
+
+/* ---------- CTA ---------- */
+
+.cta { text-align: center; }
+
+.cta-title { margin-bottom: 1.2rem; }
+
+.cta-lead { margin: 0 auto 2.2rem; }
+
+.cta-actions { justify-content: center; }
+
+.cta-note {
+  margin-top: 1.8rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--crema);
+  opacity: 0.75;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  background: var(--inchiostro);
+  padding: 3.5rem 0 2.5rem;
+  text-align: center;
+}
+
+.footer-crest { height: 72px; margin-bottom: 1rem; }
+
+.footer-brand {
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: var(--crema);
+}
+
+.footer-line, .footer-tagline {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--crema);
+  margin-top: 0.5rem;
+}
+
+.footer-tagline { color: var(--ambra); }
+
+.footer-copy {
+  margin-top: 1.6rem;
+  font-size: 0.8rem;
+  color: var(--crema);
+  opacity: 0.6;
+}
+
+/* ---------- Reveal ---------- */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 900px) {
+  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 { grid-template-columns: 1fr; }
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-crest { order: -1; }
+  .hero-crest img { width: min(220px, 60%); }
+}
+
+@media (max-width: 720px) {
+  .nav-toggle { display: flex; }
+
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.1rem;
+    background: var(--granata);
+    border-bottom: 1px solid var(--granata-chiaro);
+    padding: 1.4rem 4%;
+  }
+
+  .site-nav.open { display: flex; }
+
+  .grid-4 { grid-template-columns: 1fr; }
+  .section { padding: 4rem 0; }
+  .hero { padding: 3.5rem 0 4rem; }
+}
