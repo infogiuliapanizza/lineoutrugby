@@ -140,7 +140,13 @@ const translations = {
     'contact.form.email': 'Email *',
     'contact.form.phone': 'Telefono *',
     'contact.form.message': 'Messaggio *',
-    'contact.form.submit': 'Invia'
+    'contact.form.submit': 'Invia',
+
+    // 404
+    'nf.title': 'Pagina non trovata — LINEOUT',
+    'nf.h1': 'Palla in <span class="amber">touche.</span>',
+    'nf.text': 'Questa pagina non esiste. Torna in campo.',
+    'nf.btn': 'Torna alla home →'
   },
 
   es: {
@@ -280,7 +286,13 @@ const translations = {
     'contact.form.email': 'Email *',
     'contact.form.phone': 'Teléfono *',
     'contact.form.message': 'Mensaje *',
-    'contact.form.submit': 'Enviar'
+    'contact.form.submit': 'Enviar',
+
+    // 404
+    'nf.title': 'Página no encontrada — LINEOUT',
+    'nf.h1': 'Balón en <span class="amber">touch.</span>',
+    'nf.text': 'Esta página no existe. Vuelve al campo.',
+    'nf.btn': 'Volver al inicio →'
   }
 };
 
