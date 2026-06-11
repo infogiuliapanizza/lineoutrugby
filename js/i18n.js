@@ -85,20 +85,20 @@ const translations = {
     'founders.sb.position': 'Estremo / Mediano d’apertura',
     'founders.sb.club': 'Valorugby Emilia (Serie A Elite)',
     'founders.sb.born': 'Parma, 19 luglio 2004 (21 anni)',
-    'founders.sb.career': 'Cresciuto nelle giovanili di Viadana, ha esordito in Serie A Elite con la maglia giallonera. Entrato nell’Accademia federale delle Zebre, ha debuttato in United Rugby Championship contro l’Ulster. Nella stagione 2025/2026, con il Valorugby Emilia, ha vinto il doppio premio MVP della Serie A Elite e Miglior Under 23 del campionato (unico a vincere entrambi nella prima edizione degli Awards). Con l’Italia ha indossato la maglia dell’Under 18, Under 19, Under 20 (Sei Nazioni e Mondiali 2024), Seven e Italy XV nel 2026.',
+    'founders.sb.career': 'Cresciuto nelle giovanili di Viadana, ha esordito in Serie A Elite con la maglia giallonera. Entrato nell’Accademia federale delle Zebre, ha debuttato in United Rugby Championship contro l’Ulster. Nella stagione 2025/2026, con il Valorugby Emilia, ha vinto lo Scudetto e la Coppa Italia, oltre al doppio premio MVP della Serie A Elite e Miglior Under 23 del campionato (unico a vincere entrambi nella prima edizione degli Awards). Con l’Italia ha indossato la maglia dell’Under 18, Under 19, Under 20 (Sei Nazioni e Mondiali 2024), Seven e Italy XV nel 2026.',
 
     'founders.nc.position': 'Mediano di mischia',
     'founders.nc.club': 'Valorugby Emilia (Serie A Elite)',
     'founders.nc.born': 'L’Aquila, 12 ottobre 1998 (27 anni)',
-    'founders.nc.career': 'Cresciuto nella storica piazza rugbistica de L’Aquila, è entrato nell’Accademia Nazionale Ivan Francescato. Ha vinto lo Scudetto con Calvisano nel 2019. Ha poi disputato cinque stagioni di United Rugby Championship prima con le Zebre Parma (32 presenze) poi con il Benetton Treviso, con cui ha giocato anche in EPCR Challenge Cup. Con l’Italia ha percorso tutta la trafila Under 17, Under 18, Under 20 (Sei Nazioni e Mondiali di categoria 2018) e nel 2026 è stato convocato con l’Italy XV per i test contro il Cile.',
+    'founders.nc.career': 'Cresciuto nella storica piazza rugbistica de L’Aquila, è entrato nell’Accademia Nazionale Ivan Francescato. Ha vinto lo Scudetto con Calvisano nel 2019. Ha poi disputato cinque stagioni di United Rugby Championship prima con le Zebre Parma (32 presenze) poi con il Benetton Treviso, con cui ha giocato anche in EPCR Challenge Cup. Con l’Italia ha percorso tutta la trafila Under 17, Under 18, Under 20 (Sei Nazioni e Mondiali di categoria 2018) e nel 2026 è stato convocato con l’Italy XV per i test contro il Cile. Nel 2026 ha vinto lo Scudetto e la Coppa Italia con il Valorugby Emilia: dei tre fondatori è il più esperto, con due Scudetti e cinque stagioni da professionista a livello internazionale alle spalle.',
 
     'founders.fr.position': 'Terza linea (n.8)',
     'founders.fr.club': 'Valorugby Emilia (Serie A Elite)',
-    'founders.fr.born': '2003 (22 anni)',
-    'founders.fr.career': 'Tre anni all’accademia zonale federale a Milano. Ha giocato in Serie A con il Rugby Parma, rappresentando le nazionali giovanili Under 19 e Under 20 (Sei Nazioni e Mondiale in Sudafrica). Arrivato al Valorugby Emilia nel 2023, si è conquistato la maglia da titolare come numero 8 già nella prima stagione. Nella stagione 2025/2026 ha raggiunto la finale Scudetto ed è stato tra i nominati al premio Miglior Under 23 della Serie A Elite.',
+    'founders.fr.born': 'Monaco di Baviera, 23 settembre 2003 (22 anni)',
+    'founders.fr.career': 'Tre anni all’accademia zonale federale a Milano. Ha giocato in Serie A con il Rugby Parma, rappresentando le nazionali giovanili Under 19 e Under 20 (Sei Nazioni e Mondiale in Sudafrica). Arrivato al Valorugby Emilia nel 2023, si è conquistato la maglia da titolare come numero 8 già nella prima stagione. Nella stagione 2025/2026 ha vinto lo Scudetto e la Coppa Italia con il Valorugby Emilia ed è stato tra i nominati al premio Miglior Under 23 della Serie A Elite.',
 
-    'founders.together.alt': 'I tre fondatori in maglia Valorugby Emilia con la coppa',
-    'founders.together.text': 'Tutti e tre al Valorugby Emilia. Stessa squadra, stessa visione. LINEOUT nasce dal campo, non da un ufficio.',
+    'founders.together.alt': 'I tre fondatori in maglia Valorugby Emilia con la Coppa Italia',
+    'founders.together.text': 'Tutti e tre al Valorugby Emilia, campioni d’Italia 2026: Scudetto e Coppa Italia nella stessa stagione. Stessa squadra, stessa visione. LINEOUT nasce dal campo, non da un ufficio.',
     'founders.together.cta': 'Contattaci →',
 
     // Come funziona (pagina)
@@ -225,20 +225,20 @@ const translations = {
     'founders.sb.position': 'Zaguero / Apertura',
     'founders.sb.club': 'Valorugby Emilia (Serie A Elite)',
     'founders.sb.born': 'Parma, 19 de julio de 2004 (21 años)',
-    'founders.sb.career': 'Formado en la cantera de Viadana, debutó en la Serie A Elite con la camiseta gialloniera. Tras entrar en la Academia federal de las Zebre, debutó en el United Rugby Championship contra el Ulster. En la temporada 2025/2026, con el Valorugby Emilia, ganó el doble premio MVP de la Serie A Elite y Mejor Sub-23 del campeonato (el único en ganar ambos en la primera edición de los Awards). Con Italia ha vestido la camiseta de la Sub-18, Sub-19, Sub-20 (Seis Naciones y Mundial 2024), Seven e Italy XV en 2026.',
+    'founders.sb.career': 'Formado en la cantera de Viadana, debutó en la Serie A Elite con la camiseta gialloniera. Tras entrar en la Academia federal de las Zebre, debutó en el United Rugby Championship contra el Ulster. En la temporada 2025/2026, con el Valorugby Emilia, ganó el Scudetto y la Coppa Italia, además del doble premio MVP de la Serie A Elite y Mejor Sub-23 del campeonato (el único en ganar ambos en la primera edición de los Awards). Con Italia ha vestido la camiseta de la Sub-18, Sub-19, Sub-20 (Seis Naciones y Mundial 2024), Seven e Italy XV en 2026.',
 
     'founders.nc.position': 'Medio melé',
     'founders.nc.club': 'Valorugby Emilia (Serie A Elite)',
     'founders.nc.born': 'L’Aquila, 12 de octubre de 1998 (27 años)',
-    'founders.nc.career': 'Formado en la histórica plaza rugbística de L’Aquila, entró en la Academia Nacional Ivan Francescato. Ganó el Scudetto con Calvisano en 2019. Después disputó cinco temporadas de United Rugby Championship, primero con las Zebre Parma (32 partidos) y luego con el Benetton Treviso, con el que también jugó la EPCR Challenge Cup. Con Italia recorrió todas las categorías Sub-17, Sub-18, Sub-20 (Seis Naciones y Mundial de la categoría 2018) y en 2026 fue convocado con el Italy XV para los tests contra Chile.',
+    'founders.nc.career': 'Formado en la histórica plaza rugbística de L’Aquila, entró en la Academia Nacional Ivan Francescato. Ganó el Scudetto con Calvisano en 2019. Después disputó cinco temporadas de United Rugby Championship, primero con las Zebre Parma (32 partidos) y luego con el Benetton Treviso, con el que también jugó la EPCR Challenge Cup. Con Italia recorrió todas las categorías Sub-17, Sub-18, Sub-20 (Seis Naciones y Mundial de la categoría 2018) y en 2026 fue convocado con el Italy XV para los tests contra Chile. En 2026 ganó el Scudetto y la Coppa Italia con el Valorugby Emilia: de los tres fundadores es el más experimentado, con dos Scudetti y cinco temporadas como profesional a nivel internacional a sus espaldas. De los tres fundadores es el más experimentado: un Scudetto ganado y cinco temporadas como profesional a nivel internacional.',
 
     'founders.fr.position': 'Tercera línea (n.º 8)',
     'founders.fr.club': 'Valorugby Emilia (Serie A Elite)',
-    'founders.fr.born': '2003 (22 años)',
-    'founders.fr.career': 'Tres años en la academia zonal federal de Milán. Jugó en Serie A con el Rugby Parma, representando a las selecciones juveniles Sub-19 y Sub-20 (Seis Naciones y Mundial en Sudáfrica). Llegó al Valorugby Emilia en 2023 y se ganó la titularidad como número 8 ya en su primera temporada. En la temporada 2025/2026 alcanzó la final del Scudetto y fue uno de los nominados al premio Mejor Sub-23 de la Serie A Elite.',
+    'founders.fr.born': 'Múnich, 23 de septiembre de 2003 (22 años)',
+    'founders.fr.career': 'Tres años en la academia zonal federal de Milán. Jugó en Serie A con el Rugby Parma, representando a las selecciones juveniles Sub-19 y Sub-20 (Seis Naciones y Mundial en Sudáfrica). Llegó al Valorugby Emilia en 2023 y se ganó la titularidad como número 8 ya en su primera temporada. En la temporada 2025/2026 ganó el Scudetto y la Coppa Italia con el Valorugby Emilia y fue uno de los nominados al premio Mejor Sub-23 de la Serie A Elite.',
 
-    'founders.together.alt': 'Los tres fundadores con la camiseta del Valorugby Emilia y la copa',
-    'founders.together.text': 'Los tres en el Valorugby Emilia. Mismo equipo, misma visión. LINEOUT nace del campo, no de una oficina.',
+    'founders.together.alt': 'Los tres fundadores con la camiseta del Valorugby Emilia y la Coppa Italia',
+    'founders.together.text': 'Los tres en el Valorugby Emilia, campeones de Italia 2026: Scudetto y Coppa Italia en la misma temporada. Mismo equipo, misma visión. LINEOUT nace del campo, no de una oficina.',
     'founders.together.cta': 'Contáctanos →',
 
     // Come funziona (pagina)
