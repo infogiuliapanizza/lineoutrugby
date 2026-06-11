@@ -78,7 +78,9 @@ const translations = {
     'founders.label.position': 'Posizione',
     'founders.label.club': 'Club attuale',
     'founders.label.born': 'Nato',
-    'founders.photo.alt': 'Foto in arrivo',
+    'founders.sb.photo.alt': 'Simone Brisighella in azione con la maglia del Valorugby Emilia',
+    'founders.nc.photo.alt': 'Nicolò Casilio entra in campo allo stadio per la finale Scudetto',
+    'founders.fr.photo.alt': 'Fabio Ruaro palla in mano con la maglia del Valorugby Emilia',
 
     'founders.sb.position': 'Estremo / Mediano d’apertura',
     'founders.sb.club': 'Valorugby Emilia (Serie A Elite)',
@@ -217,7 +219,9 @@ const translations = {
     'founders.label.position': 'Posición',
     'founders.label.club': 'Club actual',
     'founders.label.born': 'Nacido',
-    'founders.photo.alt': 'Foto próximamente',
+    'founders.sb.photo.alt': 'Simone Brisighella en acción con la camiseta del Valorugby Emilia',
+    'founders.nc.photo.alt': 'Nicolò Casilio entra al campo del estadio para la final del Scudetto',
+    'founders.fr.photo.alt': 'Fabio Ruaro con el balón y la camiseta del Valorugby Emilia',
 
     'founders.sb.position': 'Zaguero / Apertura',
     'founders.sb.club': 'Valorugby Emilia (Serie A Elite)',

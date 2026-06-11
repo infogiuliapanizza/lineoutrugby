@@ -30,8 +30,6 @@ persists the choice in `localStorage`. Default language is Italian.
 ## Before launch
 
 - Replace the Formspree form ID in `contatti.html` (`xpwzgkdv` is a placeholder).
-- Replace the founder photo placeholders in `fondatori.html` (swap the `placeholder`
-  `<img>` for a `class="real"` one pointing to the uploaded photos).
 
 ## Brand
 
