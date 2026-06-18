@@ -785,6 +785,10 @@ img { max-width: 100%; display: block; }
 
 .footer-copy { margin-top: 0.7rem; font-size: 0.78rem; opacity: 0.6; }
 
+.footer-legal { margin-top: 0.9rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.footer-legal a { font-size: 0.78rem; color: var(--crema); opacity: 0.55; text-decoration: none; }
+.footer-legal a:hover { opacity: 1; color: var(--ambra); }
+
 /* ---------- Reveal ---------- */
 
 .reveal {
